@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/style.scss"],"names":[],"mappings":"AACA,GACI,SAAS,CACT,YAAa,CACb,wBAAoC,CACpC,wBAAyB,CACzB,YAAa","file":"style.css","sourcesContent":["$baseUrl: \"/pug-starter/\";\n.x {\r\n    color:red;\r\n    margin: 10rem;\r\n    background-color: rgb(201, 201, 230);\r\n    border: 10px solid yellow;\r\n    padding: 10px;\r\n}"]}
