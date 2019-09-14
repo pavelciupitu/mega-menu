@@ -7,5 +7,13 @@ html(lang="en")
         link(rel="stylesheet",href="style.css")
         title Solving Mega-menu Challenge
     body
+        div=data.link.message
+        ul.mega_menu
+            each x in data.menu
+                li
+                    a.mege_menu__top-link(href=`/${x.id}`)=x.label
+
     .xy
-        .x hello
+        .x Antonio a venit inddd vizita
+        //- iframe(width="90%" height="500px" allowFullScreen="true" style="display:block; margin:20px auto; border:0 none; max-width:880px;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px, rgba(0, 0, 0, 0.23) 0px 3px 20px;" src="https://panoraven.com/embed/g8YbWkD45W")
+        //- pre=JSON.stringify(data,null, 2)

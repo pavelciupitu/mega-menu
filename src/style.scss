@@ -1,7 +1,18 @@
 .x {
-    color:red;
+    color:rgb(50, 24, 136);
     margin: 10rem;
-    background-color: blue;
+    background-color: rgb(201, 201, 230);
     border: 10px solid yellow;
     padding: 10px;
+}
+
+.mega_menu {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.mege_menu__top-link {
+    padding: 0.5rem;
+    decoration: none;
 }
